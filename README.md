@@ -12,4 +12,4 @@ We've reached 93,84% accuracy with SGDClassifier to predict whether the news is 
 
 Confusion matrix:
 
-<img src= ./conf-matrix.png width=260 >
+<img src= ./conf-matrix-hd.png width=260 >
