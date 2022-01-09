@@ -13,3 +13,28 @@ We've reached 93,84% accuracy with SGDClassifier to predict whether the news is 
 Confusion matrix:
 
 <img src= ./conf-matrix.png width=300 >
+
+## Setup
+0.Install Anaconda or Miniconda [here](https://docs.anaconda.com/anaconda/install/)
+ 
+1.Clone the repository, and navigate to the downloaded folder.
+```
+git clone https://github.com/VincentJonathanz/predicting-fake-news.git
+```
+2.Create and activate enviroment.
+   - **Anaconda Prompt**:
+      ```
+      conda env create --prefix ./env -f enviroment.yml
+      conda activate predicting-fake-news/env
+      ```
+      
+   - **Powershell** (you need to run this command first then run the command above):
+      ```
+      conda init powershell
+      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+      ```
+      
+3.Start Jupyter
+``` 
+jupyter notebook
+```
